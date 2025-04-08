@@ -93,6 +93,19 @@ p{
     height: 400px;
     width: 450px;
 }
+.bienvenida h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+.bienvenida strong{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.link a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
 .form-register {
 width: 400px;
 background: #24303c;
@@ -129,6 +142,9 @@ color: white;
 .form-register a:hover {
     color: white;
     text-decoration: underline;
+}
+.form-register input{
+    color: white;
 }
 .form-register .botons {
     width: 100%;
