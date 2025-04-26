@@ -1,4 +1,4 @@
-*, *::after, *::before{
+*{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -59,7 +59,7 @@ nav{
     transition: all 0.3 ease 0s;
 }
 .menu li:hover{
-    background-color:  rgb(84, 197, 250);
+    background-color:  rgb(136, 210, 245);
 }
 nav p{
     font-family: "Underdog", system-ui;
@@ -80,16 +80,18 @@ a{
 div{
     padding-left: 2vw;
 }
-div h3{
+div .titulo{
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     text-decoration: underline;
 }
 p{
+    position: relative;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-.Imagen img{
+img{
     height: 400px;
     width: 450px;
 }
