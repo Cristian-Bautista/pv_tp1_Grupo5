@@ -36,7 +36,7 @@
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 } */
 body{
-    background-color: rgb(248, 182, 162);
+    background-color: #f5deb3;
 }
 nav{
     background-image: url(Imagenes/0.jpg);
@@ -90,6 +90,10 @@ p{
     position: relative;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+}
+div .imagen{
+    position: relative;
+    text-align: center;
 }
 img{
     height: 400px;
@@ -156,4 +160,9 @@ color: white;
     color: white;
     margin: 16px 0;
     font-size: 16px;
+}
+footer{
+    font-size: 10px;
+    padding-left: 40px;
+    background-color: gray;
 }
